@@ -13,5 +13,9 @@ public class ApiController {
 	public String getInfo() {
 		return "This is Prince Raj.";
 	}
+	@GetMapping("/test")
+	public String test() {
+		return "This is in test branch only";
+	}
 
 }
