@@ -9,5 +9,9 @@ public class ApiController {
 	public String hello() {
 		return "Hello World!!";
 	}
+	@GetMapping("/info")
+	public String getInfo() {
+		return "This is Prince Raj.";
+	}
 
 }
